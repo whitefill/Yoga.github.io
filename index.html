@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Poll</title>
+    <style>
+      /* Add some styling for the poll */
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      h1 {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        margin-right: 10px;
+      }
+      
+      select {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+      }
+      
+      input[type="submit"] {
+        padding: 10px 20px;
+        background-color: lightblue;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Custom Poll</h1>
+    <h2>What is your favorite ice cream flavor?</h2>
+    <form>
+      <label for="flavor">Flavor:</label>
+      <select id="flavor" name="flavor">
+        <option value="">Select your favorite flavor</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="mint">Mint</option>
+        <option value="cookie and cream">Cookie and Cream</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form> 
+  </body>
+</html>
